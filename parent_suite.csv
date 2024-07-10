@@ -1,6 +1,6 @@
 Parent Suite, Suite, Status
-tests.software.deployment_tools, test_analyze_command, 18:P
-tests.software.deployment_tools, test_deploy_command, 8:P , 1:S
-tests.software.deployment_tools, test_sign_command, 5:P
-tests.software.deployment_tools, test_unsign_command, 3:P , 3:B
-tests.software.deployment_tools, test_verify_command, 2:P,1-B
+tests.software.deployment_tools, test_analyze_command, 18
+tests.software.deployment_tools, test_deploy_command, 8
+tests.software.deployment_tools, test_sign_command, 5
+tests.software.deployment_tools, test_unsign_command, 6
+tests.software.deployment_tools, test_verify_command, 3
