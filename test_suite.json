@@ -1,746 +1,322 @@
-{
-  "uid" : "98d3104e051c652961429bf95fa0b5d6",
-  "children" : [ {
-    "name" : "tests.software.deployment_tools",
-    "children" : [ {
-      "name" : "test_analyze_command",
-      "children" : [ {
-        "name" : "TestAnalyzeCommand",
-        "children" : [ {
-          "name" : "test_analyze_on_rootfs",
-          "uid" : "6c78dd15dcb7e521",
-          "parentUid" : "28c3f04a96ff5535ca9ae98824850d09",
-          "status" : "passed",
-          "time" : {
-            "start" : 1720392772519,
-            "stop" : 1720392774276,
-            "duration" : 1757
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_analyze_on_single_file",
-          "uid" : "f987b414ec5da7ae",
-          "parentUid" : "28c3f04a96ff5535ca9ae98824850d09",
-          "status" : "passed",
-          "time" : {
-            "start" : 1720392776276,
-            "stop" : 1720392777183,
-            "duration" : 907
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_analyze_on_rootfs_with_symlinks",
-          "uid" : "87aef70e102e8ddf",
-          "parentUid" : "28c3f04a96ff5535ca9ae98824850d09",
-          "status" : "passed",
-          "time" : {
-            "start" : 1720392779353,
-            "stop" : 1720392780335,
-            "duration" : 982
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_analyze_on_rootfs_with_ouv_files",
-          "uid" : "3af0e38077725c29",
-          "parentUid" : "28c3f04a96ff5535ca9ae98824850d09",
-          "status" : "passed",
-          "time" : {
-            "start" : 1720392782487,
-            "stop" : 1720392802353,
-            "duration" : 19866
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_analyze_on_rootfs_with_specific_files_list",
-          "uid" : "df3f5a2901be82fa",
-          "parentUid" : "28c3f04a96ff5535ca9ae98824850d09",
-          "status" : "passed",
-          "time" : {
-            "start" : 1720392807573,
-            "stop" : 1720392827381,
-            "duration" : 19808
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_analyze_argus_files_with_ase_ko",
-          "uid" : "92ecd640c301caa8",
-          "parentUid" : "28c3f04a96ff5535ca9ae98824850d09",
-          "status" : "passed",
-          "time" : {
-            "start" : 1720392831472,
-            "stop" : 1720392833244,
-            "duration" : 1772
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_analyze_on_specific_files_and_single_file",
-          "uid" : "c7136d04a2fc568b",
-          "parentUid" : "28c3f04a96ff5535ca9ae98824850d09",
-          "status" : "passed",
-          "time" : {
-            "start" : 1720392835270,
-            "stop" : 1720392836117,
-            "duration" : 847
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_analyze_on_argus_internal_files_and_single_file",
-          "uid" : "f00dcfd9d64ee636",
-          "parentUid" : "28c3f04a96ff5535ca9ae98824850d09",
-          "status" : "passed",
-          "time" : {
-            "start" : 1720392838079,
-            "stop" : 1720392839689,
-            "duration" : 1610
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_analyze_specific_files_with_their_full_path",
-          "uid" : "fbdc1ee7ebc9cd2b",
-          "parentUid" : "28c3f04a96ff5535ca9ae98824850d09",
-          "status" : "passed",
-          "time" : {
-            "start" : 1720392841672,
-            "stop" : 1720392842570,
-            "duration" : 898
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_analyze_command_with_invalid_rootfs",
-          "uid" : "266c15ee45bb6548",
-          "parentUid" : "28c3f04a96ff5535ca9ae98824850d09",
-          "status" : "passed",
-          "time" : {
-            "start" : 1720392844518,
-            "stop" : 1720392845383,
-            "duration" : 865
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_analyze_on_argus_internal_files_not_under_rootfs",
-          "uid" : "c5309b3695ccf8ec",
-          "parentUid" : "28c3f04a96ff5535ca9ae98824850d09",
-          "status" : "passed",
-          "time" : {
-            "start" : 1720392847467,
-            "stop" : 1720392849220,
-            "duration" : 1753
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_analyze_on_specific_files_list_on_non_existing_file",
-          "uid" : "2850811361d7b9d1",
-          "parentUid" : "28c3f04a96ff5535ca9ae98824850d09",
-          "status" : "passed",
-          "time" : {
-            "start" : 1720392851249,
-            "stop" : 1720392852118,
-            "duration" : 869
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_analyze_on_high_level_depth_specific_files_list",
-          "uid" : "d84ee1f5eb18ea45",
-          "parentUid" : "28c3f04a96ff5535ca9ae98824850d09",
-          "status" : "passed",
-          "time" : {
-            "start" : 1720392854126,
-            "stop" : 1720392855000,
-            "duration" : 874
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_analyze_on_very_long_single_file_path",
-          "uid" : "188293c51aaf242e",
-          "parentUid" : "28c3f04a96ff5535ca9ae98824850d09",
-          "status" : "passed",
-          "time" : {
-            "start" : 1720392857053,
-            "stop" : 1720392858293,
-            "duration" : 1240
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_analyze_on_specific_files_paths_with_special_characters",
-          "uid" : "b4d509a6ee4399f6",
-          "parentUid" : "28c3f04a96ff5535ca9ae98824850d09",
-          "status" : "passed",
-          "time" : {
-            "start" : 1720392862309,
-            "stop" : 1720392863168,
-            "duration" : 859
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_analyze_on_specific_files_paths_when_two_are_the_same",
-          "uid" : "9c983b3edfdc41e2",
-          "parentUid" : "28c3f04a96ff5535ca9ae98824850d09",
-          "status" : "passed",
-          "time" : {
-            "start" : 1720392865162,
-            "stop" : 1720392866037,
-            "duration" : 875
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_analyze_on_rootfs_with_hardlinks",
-          "uid" : "e4241eba05bebefc",
-          "parentUid" : "28c3f04a96ff5535ca9ae98824850d09",
-          "status" : "passed",
-          "time" : {
-            "start" : 1720392868036,
-            "stop" : 1720392868933,
-            "duration" : 897
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_analyze_on_regexp",
-          "uid" : "842927240156baed",
-          "parentUid" : "28c3f04a96ff5535ca9ae98824850d09",
-          "status" : "passed",
-          "time" : {
-            "start" : 1720392872027,
-            "stop" : 1720392872938,
-            "duration" : 911
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "28c3f04a96ff5535ca9ae98824850d09"
-      } ],
-      "uid" : "263d48ec78651513ce13693dee2396e7"
-    }, {
-      "name" : "test_deploy_command",
-      "children" : [ {
-        "name" : "TestDeployCommand",
-        "children" : [ {
-          "name" : "test_deploy_on_rootfs",
-          "uid" : "ca8a1d31e3c80f13",
-          "parentUid" : "0105d3e74de02d94b1d9e68a5e51d814",
-          "status" : "passed",
-          "time" : {
-            "start" : 1720392876909,
-            "stop" : 1720392881273,
-            "duration" : 4364
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_wrong_sign_list_input",
-          "uid" : "f003918da1a0b01f",
-          "parentUid" : "0105d3e74de02d94b1d9e68a5e51d814",
-          "status" : "passed",
-          "time" : {
-            "start" : 1720392883267,
-            "stop" : 1720392884073,
-            "duration" : 806
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_deploy_manifest_signature",
-          "uid" : "ae497381cfe04d39",
-          "parentUid" : "0105d3e74de02d94b1d9e68a5e51d814",
-          "status" : "skipped",
-          "time" : {
-            "start" : 1720392884973,
-            "stop" : 1720392884973,
-            "duration" : 0
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_deploy_on_immutable",
-          "uid" : "480070599fbf9957",
-          "parentUid" : "0105d3e74de02d94b1d9e68a5e51d814",
-          "status" : "passed",
-          "time" : {
-            "start" : 1720392886153,
-            "stop" : 1720392889305,
-            "duration" : 3152
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_deploy_on_file_that_was_removed",
-          "uid" : "350e34393eca95fb",
-          "parentUid" : "0105d3e74de02d94b1d9e68a5e51d814",
-          "status" : "passed",
-          "time" : {
-            "start" : 1720392891310,
-            "stop" : 1720392894468,
-            "duration" : 3158
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_directory_as_log_file",
-          "uid" : "e4fdd312fd68dea8",
-          "parentUid" : "0105d3e74de02d94b1d9e68a5e51d814",
-          "status" : "passed",
-          "time" : {
-            "start" : 1720392896410,
-            "stop" : 1720392899811,
-            "duration" : 3401
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_log_file_is_appended",
-          "uid" : "ebaf8752681da969",
-          "parentUid" : "0105d3e74de02d94b1d9e68a5e51d814",
-          "status" : "passed",
-          "time" : {
-            "start" : 1720392901744,
-            "stop" : 1720392904994,
-            "duration" : 3250
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_custom_file_has_one_argus_sig",
-          "uid" : "bddc2153a8dd9c39",
-          "parentUid" : "0105d3e74de02d94b1d9e68a5e51d814",
-          "status" : "passed",
-          "time" : {
-            "start" : 1720392906912,
-            "stop" : 1720392910127,
-            "duration" : 3215
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_ase_ko_two_signatures",
-          "uid" : "1e4763087213ee17",
-          "parentUid" : "0105d3e74de02d94b1d9e68a5e51d814",
-          "status" : "passed",
-          "time" : {
-            "start" : 1720392912049,
-            "stop" : 1720392915344,
-            "duration" : 3295
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "0105d3e74de02d94b1d9e68a5e51d814"
-      } ],
-      "uid" : "c5341d6fd034a2446a6e8694a05ddb5a"
-    }, {
-      "name" : "test_sign_command",
-      "children" : [ {
-        "name" : "TestSignCommand",
-        "children" : [ {
-          "name" : "test_generate_signature_on_rootfs",
-          "uid" : "1f6760019e4ccfea",
-          "parentUid" : "c8484b909f755a0bd7fb21bd937d5d8e",
-          "status" : "passed",
-          "time" : {
-            "start" : 1720392919097,
-            "stop" : 1720392930610,
-            "duration" : 11513
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_generate_signature_on_rootfs_incorrect_key_format",
-          "uid" : "49e855dc10685618",
-          "parentUid" : "c8484b909f755a0bd7fb21bd937d5d8e",
-          "status" : "passed",
-          "time" : {
-            "start" : 1720392932662,
-            "stop" : 1720392934995,
-            "duration" : 2333
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_generate_signature_on_missing_key",
-          "uid" : "bb34cd200658c96a",
-          "parentUid" : "c8484b909f755a0bd7fb21bd937d5d8e",
-          "status" : "passed",
-          "time" : {
-            "start" : 1720392937124,
-            "stop" : 1720392938809,
-            "duration" : 1685
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_generate_signature_on_single_file",
-          "uid" : "ba49236e6d1f6a86",
-          "parentUid" : "c8484b909f755a0bd7fb21bd937d5d8e",
-          "status" : "passed",
-          "time" : {
-            "start" : 1720392940920,
-            "stop" : 1720392942858,
-            "duration" : 1938
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_second_generate_signature",
-          "uid" : "c9672c00acdbf83d",
-          "parentUid" : "c8484b909f755a0bd7fb21bd937d5d8e",
-          "status" : "passed",
-          "time" : {
-            "start" : 1720392944853,
-            "stop" : 1720392948456,
-            "duration" : 3603
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "c8484b909f755a0bd7fb21bd937d5d8e"
-      } ],
-      "uid" : "821334e2f6ec3b1909f095aad4e1b2b1"
-    }, {
-      "name" : "test_unsign_command",
-      "children" : [ {
-        "name" : "TestUnsignCommand",
-        "children" : [ {
-          "name" : "test_unsign_rootfs",
-          "uid" : "fc0194393f3b49f2",
-          "parentUid" : "1901825558373c4df58f157d91de5d8c",
-          "status" : "broken",
-          "time" : {
-            "start" : 1720393013317,
-            "stop" : 1720393043802,
-            "duration" : 30485
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 2,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_unsign_on_single_file",
-          "uid" : "5fcb3882a9bc510b",
-          "parentUid" : "1901825558373c4df58f157d91de5d8c",
-          "status" : "passed",
-          "time" : {
-            "start" : 1720393045839,
-            "stop" : 1720393049274,
-            "duration" : 3435
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_unsign_specific_files_list",
-          "uid" : "aa8517462b959290",
-          "parentUid" : "1901825558373c4df58f157d91de5d8c",
-          "status" : "passed",
-          "time" : {
-            "start" : 1720393053278,
-            "stop" : 1720393074910,
-            "duration" : 21632
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_unsign_argus_internal_files",
-          "uid" : "441f7ba81711b0b3",
-          "parentUid" : "1901825558373c4df58f157d91de5d8c",
-          "status" : "broken",
-          "time" : {
-            "start" : 1720393146929,
-            "stop" : 1720393174799,
-            "duration" : 27870
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 2,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_unsign_ase_ko_file",
-          "uid" : "8af0f5f549c72161",
-          "parentUid" : "1901825558373c4df58f157d91de5d8c",
-          "status" : "broken",
-          "time" : {
-            "start" : 1720393183078,
-            "stop" : 1720393185490,
-            "duration" : 2412
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 2,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_unsign_not_affect_other_attr",
-          "uid" : "2cbe544c4ed81827",
-          "parentUid" : "1901825558373c4df58f157d91de5d8c",
-          "status" : "passed",
-          "time" : {
-            "start" : 1720393187551,
-            "stop" : 1720393192226,
-            "duration" : 4675
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "1901825558373c4df58f157d91de5d8c"
-      } ],
-      "uid" : "b0fa803e843f58628085308bcf37f41d"
-    }, {
-      "name" : "test_verify_command",
-      "children" : [ {
-        "name" : "TestVerifyCommand",
-        "children" : [ {
-          "name" : "test_verify_on_rootfs",
-          "uid" : "14aa67bfff7ba2d6",
-          "parentUid" : "de747931d92bab3ea739f252127e70d1",
-          "status" : "passed",
-          "time" : {
-            "start" : 1720393197707,
-            "stop" : 1720393201890,
-            "duration" : 4183
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_verify_single_and_internal",
-          "uid" : "31e1a2749764bd61",
-          "parentUid" : "de747931d92bab3ea739f252127e70d1",
-          "status" : "broken",
-          "time" : {
-            "start" : 1720393271790,
-            "stop" : 1720393304941,
-            "duration" : 33151
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 2,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_verify_according_to_public_key",
-          "uid" : "a33cd0059b8fabc4",
-          "parentUid" : "de747931d92bab3ea739f252127e70d1",
-          "status" : "passed",
-          "time" : {
-            "start" : 1720393306837,
-            "stop" : 1720393346955,
-            "duration" : 40118
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "de747931d92bab3ea739f252127e70d1"
-      } ],
-      "uid" : "e557784110551378db1a9c03279f5cd4"
-    } ],
-    "uid" : "944db7f6fac393193307746785c0ae09"
-  } ],
-  "name" : "suites"
-}
+[
+  {
+    "Status": "passed",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_analyze_command",
+    "Sub Suite": "TestAnalyzeCommand",
+    "Name": "test_analyze_argus_files_with_ase_ko",
+    "Status count": 36
+  },
+  {
+    "Status": "passed",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_analyze_command",
+    "Sub Suite": "TestAnalyzeCommand",
+    "Name": "test_analyze_on_rootfs",
+    "Status count": 36
+  },
+  {
+    "Status": "passed",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_deploy_command",
+    "Sub Suite": "TestDeployCommand",
+    "Name": "test_deploy_on_immutable",
+    "Status count": 36
+  },
+  {
+    "Status": "passed",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_sign_command",
+    "Sub Suite": "TestSignCommand",
+    "Name": "test_generate_signature_on_missing_key",
+    "Status count": 36
+  },
+  {
+    "Status": "passed",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_sign_command",
+    "Sub Suite": "TestSignCommand",
+    "Name": "test_generate_signature_on_rootfs",
+    "Status count": 36
+  },
+  {
+    "Status": "passed",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_analyze_command",
+    "Sub Suite": "TestAnalyzeCommand",
+    "Name": "test_analyze_on_specific_files_list_on_non_existing_file",
+    "Status count": 36
+  },
+  {
+    "Status": "passed",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_sign_command",
+    "Sub Suite": "TestSignCommand",
+    "Name": "test_generate_signature_on_single_file",
+    "Status count": 36
+  },
+  {
+    "Status": "skipped",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_deploy_command",
+    "Sub Suite": "TestDeployCommand",
+    "Name": "test_deploy_manifest_signature",
+    "Status count": 1
+  },
+  {
+    "Status": "passed",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_deploy_command",
+    "Sub Suite": "TestDeployCommand",
+    "Name": "test_wrong_sign_list_input",
+    "Status count": 36
+  },
+  {
+    "Status": "passed",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_unsign_command",
+    "Sub Suite": "TestUnsignCommand",
+    "Name": "test_unsign_not_affect_other_attr",
+    "Status count": 36
+  },
+  {
+    "Status": "passed",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_sign_command",
+    "Sub Suite": "TestSignCommand",
+    "Name": "test_generate_signature_on_rootfs_incorrect_key_format",
+    "Status count": 36
+  },
+  {
+    "Status": "broken",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_unsign_command",
+    "Sub Suite": "TestUnsignCommand",
+    "Name": "test_unsign_argus_internal_files",
+    "Status count": 4
+  },
+  {
+    "Status": "passed",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_analyze_command",
+    "Sub Suite": "TestAnalyzeCommand",
+    "Name": "test_analyze_on_argus_internal_files_and_single_file",
+    "Status count": 36
+  },
+  {
+    "Status": "broken",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_unsign_command",
+    "Sub Suite": "TestUnsignCommand",
+    "Name": "test_unsign_ase_ko_file",
+    "Status count": 4
+  },
+  {
+    "Status": "passed",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_verify_command",
+    "Sub Suite": "TestVerifyCommand",
+    "Name": "test_verify_according_to_public_key",
+    "Status count": 36
+  },
+  {
+    "Status": "passed",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_deploy_command",
+    "Sub Suite": "TestDeployCommand",
+    "Name": "test_directory_as_log_file",
+    "Status count": 36
+  },
+  {
+    "Status": "passed",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_analyze_command",
+    "Sub Suite": "TestAnalyzeCommand",
+    "Name": "test_analyze_on_high_level_depth_specific_files_list",
+    "Status count": 36
+  },
+  {
+    "Status": "passed",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_sign_command",
+    "Sub Suite": "TestSignCommand",
+    "Name": "test_second_generate_signature",
+    "Status count": 36
+  },
+  {
+    "Status": "passed",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_analyze_command",
+    "Sub Suite": "TestAnalyzeCommand",
+    "Name": "test_analyze_on_specific_files_paths_when_two_are_the_same",
+    "Status count": 36
+  },
+  {
+    "Status": "passed",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_analyze_command",
+    "Sub Suite": "TestAnalyzeCommand",
+    "Name": "test_analyze_on_rootfs_with_symlinks",
+    "Status count": 36
+  },
+  {
+    "Status": "passed",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_analyze_command",
+    "Sub Suite": "TestAnalyzeCommand",
+    "Name": "test_analyze_on_single_file",
+    "Status count": 36
+  },
+  {
+    "Status": "passed",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_analyze_command",
+    "Sub Suite": "TestAnalyzeCommand",
+    "Name": "test_analyze_on_rootfs_with_hardlinks",
+    "Status count": 36
+  },
+  {
+    "Status": "passed",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_deploy_command",
+    "Sub Suite": "TestDeployCommand",
+    "Name": "test_custom_file_has_one_argus_sig",
+    "Status count": 36
+  },
+  {
+    "Status": "passed",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_analyze_command",
+    "Sub Suite": "TestAnalyzeCommand",
+    "Name": "test_analyze_on_regexp",
+    "Status count": 36
+  },
+  {
+    "Status": "passed",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_deploy_command",
+    "Sub Suite": "TestDeployCommand",
+    "Name": "test_deploy_on_rootfs",
+    "Status count": 36
+  },
+  {
+    "Status": "passed",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_analyze_command",
+    "Sub Suite": "TestAnalyzeCommand",
+    "Name": "test_analyze_on_specific_files_paths_with_special_characters",
+    "Status count": 36
+  },
+  {
+    "Status": "passed",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_analyze_command",
+    "Sub Suite": "TestAnalyzeCommand",
+    "Name": "test_analyze_on_very_long_single_file_path",
+    "Status count": 36
+  },
+  {
+    "Status": "passed",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_analyze_command",
+    "Sub Suite": "TestAnalyzeCommand",
+    "Name": "test_analyze_on_rootfs_with_specific_files_list",
+    "Status count": 36
+  },
+  {
+    "Status": "passed",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_unsign_command",
+    "Sub Suite": "TestUnsignCommand",
+    "Name": "test_unsign_specific_files_list",
+    "Status count": 36
+  },
+  {
+    "Status": "passed",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_deploy_command",
+    "Sub Suite": "TestDeployCommand",
+    "Name": "test_ase_ko_two_signatures",
+    "Status count": 36
+  },
+  {
+    "Status": "passed",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_analyze_command",
+    "Sub Suite": "TestAnalyzeCommand",
+    "Name": "test_analyze_command_with_invalid_rootfs",
+    "Status count": 36
+  },
+  {
+    "Status": "broken",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_unsign_command",
+    "Sub Suite": "TestUnsignCommand",
+    "Name": "test_unsign_rootfs",
+    "Status count": 4
+  },
+  {
+    "Status": "passed",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_deploy_command",
+    "Sub Suite": "TestDeployCommand",
+    "Name": "test_log_file_is_appended",
+    "Status count": 36
+  },
+  {
+    "Status": "passed",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_analyze_command",
+    "Sub Suite": "TestAnalyzeCommand",
+    "Name": "test_analyze_on_argus_internal_files_not_under_rootfs",
+    "Status count": 36
+  },
+  {
+    "Status": "passed",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_unsign_command",
+    "Sub Suite": "TestUnsignCommand",
+    "Name": "test_unsign_on_single_file",
+    "Status count": 36
+  },
+  {
+    "Status": "broken",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_verify_command",
+    "Sub Suite": "TestVerifyCommand",
+    "Name": "test_verify_single_and_internal",
+    "Status count": 4
+  },
+  {
+    "Status": "passed",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_analyze_command",
+    "Sub Suite": "TestAnalyzeCommand",
+    "Name": "test_analyze_on_rootfs_with_ouv_files",
+    "Status count": 36
+  },
+  {
+    "Status": "passed",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_analyze_command",
+    "Sub Suite": "TestAnalyzeCommand",
+    "Name": "test_analyze_specific_files_with_their_full_path",
+    "Status count": 36
+  },
+  {
+    "Status": "passed",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_deploy_command",
+    "Sub Suite": "TestDeployCommand",
+    "Name": "test_deploy_on_file_that_was_removed",
+    "Status count": 36
+  },
+  {
+    "Status": "passed",
+    "Parent Suite": "tests.software.deployment_tools",
+    "Suite": "test_analyze_command",
+    "Sub Suite": "TestAnalyzeCommand",
+    "Name": "test_analyze_on_specific_files_and_single_file",
+    "Status count": 36
+  }
+]
