@@ -1,0 +1,42 @@
+[
+  {
+    "Parent Suite": "tests.software.deployment_tools",
+    "Status": "passed",
+    "Status count": 21
+  },
+  {
+    "Parent Suite": "tests.software.deployment_tools",
+    "Status": "failed",
+    "Status count": 5
+  },
+  {
+    "Parent Suite": "tests.software.atd",
+    "Status": "passed",
+    "Status count": 4
+  },
+  {
+    "Parent Suite": "tests.software.deployment_tools",
+    "Status": "skipped",
+    "Status count": 1
+  },
+  {
+    "Parent Suite": "tests.software.ase.self_protect",
+    "Status": "passed",
+    "Status count": 3
+  },
+  {
+    "Parent Suite": "tests.software.ase.self_protect",
+    "Status": "broken",
+    "Status count": 1
+  },
+  {
+    "Parent Suite": "tests.software.deployment_tools",
+    "Status": "broken",
+    "Status count": 3
+  },
+  {
+    "Parent Suite": "tests.software.atd",
+    "Status": "failed",
+    "Status count": 3
+  }
+]

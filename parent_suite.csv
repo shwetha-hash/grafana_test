@@ -1,6 +1,0 @@
-Parent Suite, Suite, Status
-tests.software.deployment_tools, test_analyze_command, 18P
-tests.software.deployment_tools, test_deploy_command, 8P-1S
-tests.software.deployment_tools, test_sign_command, 5P
-tests.software.deployment_tools, test_unsign_command, 3P-3B
-tests.software.deployment_tools, test_verify_command, 2P-1B
