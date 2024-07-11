@@ -1,7 +1,7 @@
 [
   {
     "Status": "passed",
-    "Parent Suite": "tests.software.deployment_tools",
+    "Parent Suite": "tests.software.lsm",
     "Suite": "test_analyze_command",
     "Sub Suite": "TestAnalyzeCommand",
     "Test Name": "test_analyze_argus_files_with_ase_ko",
@@ -17,9 +17,9 @@
   },
   {
     "Status": "passed",
-    "Parent Suite": "tests.software.deployment_tools",
+    "Parent Suite": "tests.software.atd",
     "Suite": "test_deploy_command",
-    "Sub Suite": "TestDeployCommand",
+    "Sub Suite": "test_write_to_forbidden_path",
     "Test Name": "test_deploy_on_immutable",
     "status count": 9
   },
@@ -35,7 +35,7 @@
     "Status": "passed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_sign_command",
-    "Sub Suite": "TestSignCommand",
+    "Sub Suite": "Ttest_write_to_forbidden_path",
     "Test Name": "test_generate_signature_on_rootfs",
     "status count": 5
   },
@@ -58,7 +58,7 @@
   {
     "Status": "skipped",
     "Parent Suite": "tests.software.deployment_tools",
-    "Suite": "test_deploy_command",
+    "Suite": "test_write_to_forbidden_path",
     "Sub Suite": "TestDeployCommand",
     "Test Name": "test_deploy_manifest_signature",
     "status count": 1
@@ -160,7 +160,7 @@
     "status count": 18
   },
   {
-    "Status": "passed",
+    "Status": "failed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_analyze_command",
     "Sub Suite": "TestAnalyzeCommand",
@@ -176,7 +176,7 @@
     "status count": 18
   },
   {
-    "Status": "passed",
+    "Status": "failed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_deploy_command",
     "Sub Suite": "TestDeployCommand",
@@ -184,7 +184,7 @@
     "status count": 9
   },
   {
-    "Status": "passed",
+    "Status": "failed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_analyze_command",
     "Sub Suite": "TestAnalyzeCommand",
@@ -192,7 +192,7 @@
     "status count": 18
   },
   {
-    "Status": "passed",
+    "Status": "failed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_deploy_command",
     "Sub Suite": "TestDeployCommand",
