@@ -1,49 +1,41 @@
 [
   {
     "Status": "passed",
-    "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_analyze_command",
     "status count": 18
   },
   {
     "Status": "passed",
-    "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_deploy_command",
     "status count": 9
   },
   {
     "Status": "passed",
-    "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_sign_command",
     "status count": 5
   },
   {
     "Status": "skipped",
-    "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_deploy_command",
     "status count": 1
   },
   {
     "Status": "passed",
-    "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_unsign_command",
     "status count": 3
   },
   {
     "Status": "broken",
-    "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_unsign_command",
     "status count": 3
   },
   {
     "Status": "passed",
-    "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_verify_command",
     "status count": 2
   },
   {
     "Status": "broken",
-    "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_verify_command",
     "status count": 1
   }
