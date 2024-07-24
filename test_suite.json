@@ -14,15 +14,15 @@
     "Test Name": "test_analyze_on_rootfs"
   },
   {
-    "Status": "passed",
+    "Status": "failed",
     "Parent Suite": "tests.software.atd",
     "Suite": "test_deploy_command",
     "Sub Suite": "test_write_to_forbidden_path",
     "Test Name": "test_deploy_on_immutable"
   },
   {
-    "Status": "passed",
-    "Parent Suite": "tests.software.deployment_tools",
+    "Status": "failed",
+    "Parent Suite": "tests.software.atd",
     "Suite": "test_sign_command",
     "Sub Suite": "TestSignCommand",
     "Test Name": "test_generate_signature_on_missing_key"
@@ -91,7 +91,7 @@
     "Test Name": "test_analyze_on_argus_internal_files_and_single_file"
   },
   {
-    "Status": "broken",
+    "Status": "passed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_unsign_command",
     "Sub Suite": "TestUnsignCommand",
@@ -140,7 +140,7 @@
     "Test Name": "test_analyze_on_rootfs_with_symlinks"
   },
   {
-    "Status": "failed",
+    "Status": "passed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_analyze_command",
     "Sub Suite": "TestAnalyzeCommand",
@@ -259,29 +259,29 @@
     "Test Name": "test_analyze_on_rootfs_with_ouv_files"
   },
   {
-    "Status": "passed",
-    "Parent Suite": "tests.software.deployment_tools",
+    "Status": "broken",
+    "Parent Suite": "tests.software.ase.self_protect",
     "Suite": "test_analyze_command",
     "Sub Suite": "TestAnalyzeCommand",
     "Test Name": "test_analyze_specific_files_with_their_full_path"
   },
   {
     "Status": "passed",
-    "Parent Suite": "tests.software.deployment_tools",
+    "Parent Suite": "tests.software.ase.self_protect",
     "Suite": "test_verify_command",
     "Sub Suite": "TestVerifyCommand",
     "Test Name": "test_verify_on_rootfs"
   },
   {
     "Status": "passed",
-    "Parent Suite": "tests.software.deployment_tools",
+    "Parent Suite": "tests.software.ase.self_protect",
     "Suite": "test_deploy_command",
     "Sub Suite": "TestDeployCommand",
     "Test Name": "test_deploy_on_file_that_was_removed"
   },
   {
     "Status": "passed",
-    "Parent Suite": "tests.software.deployment_tools",
+    "Parent Suite": "tests.software.ase.self_protect",
     "Suite": "test_analyze_command",
     "Sub Suite": "TestAnalyzeCommand",
     "Test Name": "test_analyze_on_specific_files_and_single_file"
