@@ -1,0 +1,182 @@
+[
+  {
+    "Suite": "test_analyze_command",
+    "Sub Suite": "TestAnalyzeCommand",
+    "Test Name": "test_analyze_argus_files_with_ase_ko",
+    "Status": "passed"
+  },
+  {
+    "Suite": "test_analyze_command",
+    "Sub Suite": "TestAnalyzeCommand",
+    "Test Name": "test_analyze_on_rootfs",
+    "Status": "passed"
+  },
+  {
+    "Suite": "test_sign_command",
+    "Sub Suite": "Ttest_write_to_forbidden_path",
+    "Test Name": "test_generate_signature_on_rootfs",
+    "Status": "passed"
+  },
+  {
+    "Suite": "test_analyze_command",
+    "Sub Suite": "TestAnalyzeCommand",
+    "Test Name": "test_analyze_on_specific_files_list_on_non_existing_file",
+    "Status": "passed"
+  },
+  {
+    "Suite": "test_sign_command",
+    "Sub Suite": "TestSignCommand",
+    "Test Name": "test_generate_signature_on_single_file",
+    "Status": "passed"
+  },
+  {
+    "Suite": "test_deploy_command",
+    "Sub Suite": "TestDeployCommand",
+    "Test Name": "test_wrong_sign_list_input",
+    "Status": "passed"
+  },
+  {
+    "Suite": "test_unsign_command",
+    "Sub Suite": "TestUnsignCommand",
+    "Test Name": "test_unsign_not_affect_other_attr",
+    "Status": "passed"
+  },
+  {
+    "Suite": "test_sign_command",
+    "Sub Suite": "TestSignCommand",
+    "Test Name": "test_generate_signature_on_rootfs_incorrect_key_format",
+    "Status": "passed"
+  },
+  {
+    "Suite": "test_analyze_command",
+    "Sub Suite": "TestAnalyzeCommand",
+    "Test Name": "test_analyze_on_argus_internal_files_and_single_file",
+    "Status": "passed"
+  },
+  {
+    "Suite": "test_unsign_command",
+    "Sub Suite": "TestUnsignCommand",
+    "Test Name": "test_unsign_ase_ko_file",
+    "Status": "passed"
+  },
+  {
+    "Suite": "test_verify_command",
+    "Sub Suite": "TestVerifyCommand",
+    "Test Name": "test_verify_according_to_public_key",
+    "Status": "passed"
+  },
+  {
+    "Suite": "test_deploy_command",
+    "Sub Suite": "TestDeployCommand",
+    "Test Name": "test_directory_as_log_file",
+    "Status": "passed"
+  },
+  {
+    "Suite": "test_analyze_command",
+    "Sub Suite": "TestAnalyzeCommand",
+    "Test Name": "test_analyze_on_high_level_depth_specific_files_list",
+    "Status": "passed"
+  },
+  {
+    "Suite": "test_sign_command",
+    "Sub Suite": "TestSignCommand",
+    "Test Name": "test_second_generate_signature",
+    "Status": "passed"
+  },
+  {
+    "Suite": "test_analyze_command",
+    "Sub Suite": "TestAnalyzeCommand",
+    "Test Name": "test_analyze_on_specific_files_paths_when_two_are_the_same",
+    "Status": "passed"
+  },
+  {
+    "Suite": "test_analyze_command",
+    "Sub Suite": "TestAnalyzeCommand",
+    "Test Name": "test_analyze_on_rootfs_with_symlinks",
+    "Status": "passed"
+  },
+  {
+    "Suite": "test_analyze_command",
+    "Sub Suite": "TestAnalyzeCommand",
+    "Test Name": "test_analyze_on_single_file",
+    "Status": "passed"
+  },
+  {
+    "Suite": "test_analyze_command",
+    "Sub Suite": "TestAnalyzeCommand",
+    "Test Name": "test_analyze_on_rootfs_with_hardlinks",
+    "Status": "passed"
+  },
+  {
+    "Suite": "test_analyze_command",
+    "Sub Suite": "TestAnalyzeCommand",
+    "Test Name": "test_analyze_on_specific_files_paths_with_special_characters",
+    "Status": "passed"
+  },
+  {
+    "Suite": "test_analyze_command",
+    "Sub Suite": "TestAnalyzeCommand",
+    "Test Name": "test_analyze_on_very_long_single_file_path",
+    "Status": "passed"
+  },
+  {
+    "Suite": "test_analyze_command",
+    "Sub Suite": "TestAnalyzeCommand",
+    "Test Name": "test_analyze_on_rootfs_with_specific_files_list",
+    "Status": "passed"
+  },
+  {
+    "Suite": "test_unsign_command",
+    "Sub Suite": "TestUnsignCommand",
+    "Test Name": "test_unsign_specific_files_list",
+    "Status": "passed"
+  },
+  {
+    "Suite": "test_deploy_command",
+    "Sub Suite": "TestDeployCommand",
+    "Test Name": "test_ase_ko_two_signatures",
+    "Status": "passed"
+  },
+  {
+    "Suite": "test_analyze_command",
+    "Sub Suite": "TestAnalyzeCommand",
+    "Test Name": "test_analyze_command_with_invalid_rootfs",
+    "Status": "passed"
+  },
+  {
+    "Suite": "test_deploy_command",
+    "Sub Suite": "TestDeployCommand",
+    "Test Name": "test_log_file_is_appended",
+    "Status": "passed"
+  },
+  {
+    "Suite": "test_analyze_command",
+    "Sub Suite": "TestAnalyzeCommand",
+    "Test Name": "test_analyze_on_argus_internal_files_not_under_rootfs",
+    "Status": "passed"
+  },
+  {
+    "Suite": "test_unsign_command",
+    "Sub Suite": "TestUnsignCommand",
+    "Test Name": "test_unsign_on_single_file",
+    "Status": "passed"
+  },
+  {
+    "Suite": "test_verify_command",
+    "Sub Suite": "TestVerifyCommand",
+    "Test Name": "test_verify_on_rootfs",
+    "Status": "passed"
+  },
+  {
+    "Suite": "test_deploy_command",
+    "Sub Suite": "TestDeployCommand",
+    "Test Name": "test_deploy_on_file_that_was_removed",
+    "Status": "passed"
+  },
+  {
+    "Suite": "test_analyze_command",
+    "Sub Suite": "TestAnalyzeCommand",
+    "Test Name": "test_analyze_on_specific_files_and_single_file",
+    "Status": "passed"
+  }
+]
