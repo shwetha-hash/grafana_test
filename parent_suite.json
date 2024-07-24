@@ -2,17 +2,17 @@
   {
     "Parent Suite": "tests.software.deployment_tools",
     "Status": "passed",
-    "Status count": 21
+    "Status count": 23
   },
   {
     "Parent Suite": "tests.software.deployment_tools",
     "Status": "failed",
-    "Status count": 5
+    "Status count": 3
   },
   {
     "Parent Suite": "tests.software.atd",
     "Status": "passed",
-    "Status count": 4
+    "Status count": 5
   },
   {
     "Parent Suite": "tests.software.deployment_tools",
@@ -37,6 +37,6 @@
   {
     "Parent Suite": "tests.software.atd",
     "Status": "failed",
-    "Status count": 3
+    "Status count": 2
   }
 ]
