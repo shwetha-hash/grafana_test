@@ -4,327 +4,286 @@
     "Parent Suite": "tests.software.lsm",
     "Suite": "test_analyze_command",
     "Sub Suite": "TestAnalyzeCommand",
-    "Test Name": "test_analyze_argus_files_with_ase_ko",
-    "status count": 18
+    "Test Name": "test_analyze_argus_files_with_ase_ko"
   },
   {
     "Status": "passed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_analyze_command",
     "Sub Suite": "TestAnalyzeCommand",
-    "Test Name": "test_analyze_on_rootfs",
-    "status count": 18
+    "Test Name": "test_analyze_on_rootfs"
   },
   {
     "Status": "passed",
     "Parent Suite": "tests.software.atd",
     "Suite": "test_deploy_command",
     "Sub Suite": "test_write_to_forbidden_path",
-    "Test Name": "test_deploy_on_immutable",
-    "status count": 9
+    "Test Name": "test_deploy_on_immutable"
   },
   {
     "Status": "passed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_sign_command",
     "Sub Suite": "TestSignCommand",
-    "Test Name": "test_generate_signature_on_missing_key",
-    "status count": 5
+    "Test Name": "test_generate_signature_on_missing_key"
   },
   {
     "Status": "passed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_sign_command",
     "Sub Suite": "Ttest_write_to_forbidden_path",
-    "Test Name": "test_generate_signature_on_rootfs",
-    "status count": 5
+    "Test Name": "test_generate_signature_on_rootfs"
   },
   {
     "Status": "passed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_analyze_command",
     "Sub Suite": "TestAnalyzeCommand",
-    "Test Name": "test_analyze_on_specific_files_list_on_non_existing_file",
-    "status count": 18
+    "Test Name": "test_analyze_on_specific_files_list_on_non_existing_file"
   },
   {
     "Status": "passed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_sign_command",
     "Sub Suite": "TestSignCommand",
-    "Test Name": "test_generate_signature_on_single_file",
-    "status count": 5
+    "Test Name": "test_generate_signature_on_single_file"
   },
   {
     "Status": "skipped",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_write_to_forbidden_path",
     "Sub Suite": "TestDeployCommand",
-    "Test Name": "test_deploy_manifest_signature",
-    "status count": 1
+    "Test Name": "test_deploy_manifest_signature"
   },
   {
     "Status": "passed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_deploy_command",
     "Sub Suite": "TestDeployCommand",
-    "Test Name": "test_wrong_sign_list_input",
-    "status count": 9
+    "Test Name": "test_wrong_sign_list_input"
   },
   {
     "Status": "passed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_unsign_command",
     "Sub Suite": "TestUnsignCommand",
-    "Test Name": "test_unsign_not_affect_other_attr",
-    "status count": 3
+    "Test Name": "test_unsign_not_affect_other_attr"
   },
   {
     "Status": "passed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_sign_command",
     "Sub Suite": "TestSignCommand",
-    "Test Name": "test_generate_signature_on_rootfs_incorrect_key_format",
-    "status count": 5
+    "Test Name": "test_generate_signature_on_rootfs_incorrect_key_format"
   },
   {
     "Status": "broken",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_unsign_command",
     "Sub Suite": "TestUnsignCommand",
-    "Test Name": "test_unsign_argus_internal_files",
-    "status count": 3
+    "Test Name": "test_unsign_argus_internal_files"
   },
   {
     "Status": "passed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_analyze_command",
     "Sub Suite": "TestAnalyzeCommand",
-    "Test Name": "test_analyze_on_argus_internal_files_and_single_file",
-    "status count": 18
+    "Test Name": "test_analyze_on_argus_internal_files_and_single_file"
   },
   {
     "Status": "broken",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_unsign_command",
     "Sub Suite": "TestUnsignCommand",
-    "Test Name": "test_unsign_ase_ko_file",
-    "status count": 3
+    "Test Name": "test_unsign_ase_ko_file"
   },
   {
     "Status": "passed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_verify_command",
     "Sub Suite": "TestVerifyCommand",
-    "Test Name": "test_verify_according_to_public_key",
-    "status count": 2
+    "Test Name": "test_verify_according_to_public_key"
   },
   {
     "Status": "passed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_deploy_command",
     "Sub Suite": "TestDeployCommand",
-    "Test Name": "test_directory_as_log_file",
-    "status count": 9
+    "Test Name": "test_directory_as_log_file"
   },
   {
     "Status": "passed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_analyze_command",
     "Sub Suite": "TestAnalyzeCommand",
-    "Test Name": "test_analyze_on_high_level_depth_specific_files_list",
-    "status count": 18
+    "Test Name": "test_analyze_on_high_level_depth_specific_files_list"
   },
   {
     "Status": "passed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_sign_command",
     "Sub Suite": "TestSignCommand",
-    "Test Name": "test_second_generate_signature",
-    "status count": 5
+    "Test Name": "test_second_generate_signature"
   },
   {
     "Status": "passed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_analyze_command",
     "Sub Suite": "TestAnalyzeCommand",
-    "Test Name": "test_analyze_on_specific_files_paths_when_two_are_the_same",
-    "status count": 18
+    "Test Name": "test_analyze_on_specific_files_paths_when_two_are_the_same"
   },
   {
     "Status": "passed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_analyze_command",
     "Sub Suite": "TestAnalyzeCommand",
-    "Test Name": "test_analyze_on_rootfs_with_symlinks",
-    "status count": 18
+    "Test Name": "test_analyze_on_rootfs_with_symlinks"
   },
   {
     "Status": "failed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_analyze_command",
     "Sub Suite": "TestAnalyzeCommand",
-    "Test Name": "test_analyze_on_single_file",
-    "status count": 18
+    "Test Name": "test_analyze_on_single_file"
   },
   {
     "Status": "passed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_analyze_command",
     "Sub Suite": "TestAnalyzeCommand",
-    "Test Name": "test_analyze_on_rootfs_with_hardlinks",
-    "status count": 18
+    "Test Name": "test_analyze_on_rootfs_with_hardlinks"
   },
   {
     "Status": "failed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_deploy_command",
     "Sub Suite": "TestDeployCommand",
-    "Test Name": "test_custom_file_has_one_argus_sig",
-    "status count": 9
+    "Test Name": "test_custom_file_has_one_argus_sig"
   },
   {
     "Status": "failed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_analyze_command",
     "Sub Suite": "TestAnalyzeCommand",
-    "Test Name": "test_analyze_on_regexp",
-    "status count": 18
+    "Test Name": "test_analyze_on_regexp"
   },
   {
     "Status": "failed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_deploy_command",
     "Sub Suite": "TestDeployCommand",
-    "Test Name": "test_deploy_on_rootfs",
-    "status count": 9
+    "Test Name": "test_deploy_on_rootfs"
   },
   {
     "Status": "passed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_analyze_command",
     "Sub Suite": "TestAnalyzeCommand",
-    "Test Name": "test_analyze_on_specific_files_paths_with_special_characters",
-    "status count": 18
+    "Test Name": "test_analyze_on_specific_files_paths_with_special_characters"
   },
   {
     "Status": "passed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_analyze_command",
     "Sub Suite": "TestAnalyzeCommand",
-    "Test Name": "test_analyze_on_very_long_single_file_path",
-    "status count": 18
+    "Test Name": "test_analyze_on_very_long_single_file_path"
   },
   {
     "Status": "passed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_analyze_command",
     "Sub Suite": "TestAnalyzeCommand",
-    "Test Name": "test_analyze_on_rootfs_with_specific_files_list",
-    "status count": 18
+    "Test Name": "test_analyze_on_rootfs_with_specific_files_list"
   },
   {
     "Status": "passed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_unsign_command",
     "Sub Suite": "TestUnsignCommand",
-    "Test Name": "test_unsign_specific_files_list",
-    "status count": 3
+    "Test Name": "test_unsign_specific_files_list"
   },
   {
     "Status": "passed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_deploy_command",
     "Sub Suite": "TestDeployCommand",
-    "Test Name": "test_ase_ko_two_signatures",
-    "status count": 9
+    "Test Name": "test_ase_ko_two_signatures"
   },
   {
     "Status": "passed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_analyze_command",
     "Sub Suite": "TestAnalyzeCommand",
-    "Test Name": "test_analyze_command_with_invalid_rootfs",
-    "status count": 18
+    "Test Name": "test_analyze_command_with_invalid_rootfs"
   },
   {
     "Status": "broken",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_unsign_command",
     "Sub Suite": "TestUnsignCommand",
-    "Test Name": "test_unsign_rootfs",
-    "status count": 3
+    "Test Name": "test_unsign_rootfs"
   },
   {
     "Status": "passed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_deploy_command",
     "Sub Suite": "TestDeployCommand",
-    "Test Name": "test_log_file_is_appended",
-    "status count": 9
+    "Test Name": "test_log_file_is_appended"
   },
   {
     "Status": "passed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_analyze_command",
     "Sub Suite": "TestAnalyzeCommand",
-    "Test Name": "test_analyze_on_argus_internal_files_not_under_rootfs",
-    "status count": 18
+    "Test Name": "test_analyze_on_argus_internal_files_not_under_rootfs"
   },
   {
     "Status": "passed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_unsign_command",
     "Sub Suite": "TestUnsignCommand",
-    "Test Name": "test_unsign_on_single_file",
-    "status count": 3
+    "Test Name": "test_unsign_on_single_file"
   },
   {
     "Status": "broken",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_verify_command",
     "Sub Suite": "TestVerifyCommand",
-    "Test Name": "test_verify_single_and_internal",
-    "status count": 1
+    "Test Name": "test_verify_single_and_internal"
   },
   {
     "Status": "passed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_analyze_command",
     "Sub Suite": "TestAnalyzeCommand",
-    "Test Name": "test_analyze_on_rootfs_with_ouv_files",
-    "status count": 18
+    "Test Name": "test_analyze_on_rootfs_with_ouv_files"
   },
   {
     "Status": "passed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_analyze_command",
     "Sub Suite": "TestAnalyzeCommand",
-    "Test Name": "test_analyze_specific_files_with_their_full_path",
-    "status count": 18
+    "Test Name": "test_analyze_specific_files_with_their_full_path"
   },
   {
     "Status": "passed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_verify_command",
     "Sub Suite": "TestVerifyCommand",
-    "Test Name": "test_verify_on_rootfs",
-    "status count": 2
+    "Test Name": "test_verify_on_rootfs"
   },
   {
     "Status": "passed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_deploy_command",
     "Sub Suite": "TestDeployCommand",
-    "Test Name": "test_deploy_on_file_that_was_removed",
-    "status count": 9
+    "Test Name": "test_deploy_on_file_that_was_removed"
   },
   {
     "Status": "passed",
     "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_analyze_command",
     "Sub Suite": "TestAnalyzeCommand",
-    "Test Name": "test_analyze_on_specific_files_and_single_file",
-    "status count": 18
+    "Test Name": "test_analyze_on_specific_files_and_single_file"
   }
 ]
