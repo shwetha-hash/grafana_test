@@ -1,37 +1,32 @@
 [
   {
-    "Status": "failed",
-    "Parent Suite": "tests.software.atd",
     "Suite": "test_deploy_command",
     "Sub Suite": "test_write_to_forbidden_path",
-    "Test Name": "test_deploy_on_immutable"
+    "Test Name": "test_deploy_on_immutable",
+    "Status": "failed"
   },
   {
-    "Status": "failed",
-    "Parent Suite": "tests.software.atd",
     "Suite": "test_sign_command",
     "Sub Suite": "TestSignCommand",
-    "Test Name": "test_generate_signature_on_missing_key"
+    "Test Name": "test_generate_signature_on_missing_key",
+    "Status": "failed"
   },
   {
-    "Status": "failed",
-    "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_deploy_command",
     "Sub Suite": "TestDeployCommand",
-    "Test Name": "test_custom_file_has_one_argus_sig"
+    "Test Name": "test_custom_file_has_one_argus_sig",
+    "Status": "failed"
   },
   {
-    "Status": "failed",
-    "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_analyze_command",
     "Sub Suite": "TestAnalyzeCommand",
-    "Test Name": "test_analyze_on_regexp"
+    "Test Name": "test_analyze_on_regexp",
+    "Status": "failed"
   },
   {
-    "Status": "failed",
-    "Parent Suite": "tests.software.deployment_tools",
     "Suite": "test_deploy_command",
     "Sub Suite": "TestDeployCommand",
-    "Test Name": "test_deploy_on_rootfs"
+    "Test Name": "test_deploy_on_rootfs",
+    "Status": "failed"
   }
 ]
