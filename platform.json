@@ -1,4 +1,4 @@
-{
+[
     "test_strace[run strace from initramfs (rootfs)]": {
         "Pass-Status": 1,
         "Fail-Status": 0,
@@ -5939,4 +5939,4 @@
         "Suite": "test_on_usage_verification",
         "Sub Suite": "TestOnUsageVerification"
     }
-}
+]
